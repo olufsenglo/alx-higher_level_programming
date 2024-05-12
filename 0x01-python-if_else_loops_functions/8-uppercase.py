@@ -17,6 +17,3 @@ def toupper(char):
     ascii_val = ord(char)
     upper_val = ascii_val - 32
     return chr(upper_val)
-
-
-uppercase("This is Cool")
