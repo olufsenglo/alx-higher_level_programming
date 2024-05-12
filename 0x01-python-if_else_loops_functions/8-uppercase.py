@@ -2,18 +2,8 @@
 
 def uppercase(str):
     for char in str:
-        if islower(char):
-            print(toupper(char), end="")
-        else:
-            print(char, end="")
+        ascii_val = ord(char)
+        if 97 <= ord(char) <= 122:
+            ascii_val -= 32
+        print(chr(ascii_val), end="")
     print()
-
-
-def islower(str):
-    return 97 <= ord(str) <= 122
-
-
-def toupper(char):
-    ascii_val = ord(char)
-    upper_val = ascii_val - 32
-    return chr(upper_val)
