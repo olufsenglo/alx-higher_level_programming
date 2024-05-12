@@ -3,7 +3,7 @@
 def uppercase(str):
     for char in str:
         if islower(char):
-            print(format(toupper(char)), end="")
+            print(toupper(char), end="")
         else:
             print(char, end="")
     print()
