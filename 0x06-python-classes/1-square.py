@@ -1,13 +1,21 @@
 #!/usr/bin/python3
-"""Class square with size"""
+"""
+The `Square` class represents a square and is initialized with a size.
+"""
 
 
 class Square:
     """
-    Class to create square
-    Args:
-        size
+    Represents a square defined by its size.
+
+    Attributes:
+        __size (int): The size of the square
     """
-    def __init__(self, size):
-        """Constructor of Square"""
+    def __init__(self, size: int):
+        """
+        Initializes the square with a given size.
+
+        Args:
+            size (int): The size of the square.
+        """
         self.__size = size
