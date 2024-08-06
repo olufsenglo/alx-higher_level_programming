@@ -3,6 +3,7 @@
 calculate the area of the square.
 """
 
+
 class Square:
     """
     Represents a square defined by its size.
